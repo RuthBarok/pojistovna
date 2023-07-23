@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesPojistovny.css">
+    <a href=""></a>
+    <title>Pojistovna</title>
+</head>
+
+<body>
+
+    <div>
+        <div class="header-wraper">
+            <header class="container">
+
+                <div class="logo">
+                    <a onclick="setDisplay('form-div')">
+                        <h2>PojisteniApp</h2>
+                    </a>
+                </div>
+
+                <nav class="navigace">
+                    <ul>
+                        <li><a onclick="setDisplay('table-div')">pojistenci</a></li>
+                        <li><a href="">O aplikaci</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div id="table-div">
+            <h1 class="list">Pojistenci</h1>
+            <table id="ppl-table" border="1">
+                <thead class="nazev">
+                    <tr>
+                        <th>Jmeno a Prijmeni</th>
+                        <th>Telefon</th>
+                        <th>vek</th>
+    
+                    </tr>
+                </thead>
+    
+            </table>
+        </div>
+
+        <div id="form-div">
+            <h1 class="newList">Novy pojistenec</h1>
+    
+            <form id="add-form">
+                <div class="form-columns">
+                    <img class="fotka" src="../pojistenec.png" alt="obrazek">
+                    <div class="form-column">
+                        <label for="name">Jmeno:</label>
+                        <input required type="text" id="name" name="name">
+    
+                        <label for="surname">Prijmeni:</label>
+                        <input required type="text" id="surname" name="prijmeni">
+                    </div>
+    
+                    <div class="form-column">
+                        <label for="age">vek:</label>
+                        <input required type="number" id="age" name="vek">
+    
+                        <label for="contact">cislo:</label>
+                        <input required type="number" id="contact" name="cislo">
+    
+                    </div>
+                </div>
+                <div class="submit">
+                    <button type="submit">ulozit</button>
+                </div>
+                <p class="confirmation" id="confirmation"></p>
+            </form>
+        </div>
+        <div class="bottom-part">
+            <p id="aktualizace" class="aktualizace">Posledni aktualizace leto </p>
+            <footer id="footer">Ruth jde na to od lesa </footer>
+        </div>
+
+
+        <script src="../pojistovna.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.header-wraper {
+  background-color: #f0cfcf;
+
+}
+
+header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo a {
+  color: #691103;
+  text-decoration: none;
+  font-style: Arial;
+}
+/* .logo h2 {
+  font-size: 1.7em;
+}  */
+
+
+.logo a:hover {
+  color: #992412;
+  cursor: pointer;
+}
+
+.navigace {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navigace ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  margin-right: 10px;
+
+}
+
+li a {
+  text-decoration: none;
+  background-color: rgb(247, 196, 178);
+  color: #691103;
+  padding: 15px;
+  border-radius: 15px;
+
+}
+
+li a:hover {
+  background-color: rgba(235, 247, 248, 0.884);
+  color: black;
+  cursor: pointer;
+}
+
+
+table {
+  width: 65%;
+  border-collapse: collapse;
+  margin-left: 250px;
+
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+ .list {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+
+
+tr:hover {
+  background-color: #f5f5f5;
+} 
+
+.newList {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.fotka {
+  margin-left: 250px;
+  margin-top: 40px;
+  margin-right: 60px;
+  
+}
+
+.form-columns {
+ 
+  display: flex;
+  width: 100%;
+  justify-content: start;
+
+
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  border: 1px solid rgb(201, 199, 199);
+}
+
+.form-column {
+ 
+  margin-right: 50px;
+  margin-top: 35px;
+  width: 300px;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.submit button{
+  height: 50px;
+  width: 120px;
+  border-radius: 6px;
+  border-width: 1px solid;
+  background-color: rgb(79, 167, 250);
+  color: aliceblue;
+  font-size: 17px;
+  
+ 
+  
+}
+
+.submit button:hover{
+  background-color: #f0cfcf;
+}
+
+.confirmation {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+footer{
+    
+  text-align: center;
+  box-sizing: border-box;
+  color: rgb(17, 17, 17);
+  background: #FFE7CE;
+  padding: 20px 0 ;
+  
+ }
+
+
+ .bottom-part {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+ }
+ .aktualizace{
+  text-align: center;
+  font-size: small;
+}
