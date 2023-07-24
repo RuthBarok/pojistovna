@@ -24,10 +24,6 @@ header {
   text-decoration: none;
   font-style: Arial;
 }
-/* .logo h2 {
-  font-size: 1.7em;
-}  */
-
 
 .logo a:hover {
   color: #992412;
@@ -40,14 +36,13 @@ header {
   justify-content: center;
 }
 
-
 .navigace ul {
   display: flex;
 }
+
 li {
   list-style: none;
   margin-right: 10px;
-
 }
 
 li a {
@@ -79,16 +74,15 @@ td {
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
- .list {
+
+.list {
   margin-left: 250px;
   margin-top: 50px;
 }
 
-
-
 tr:hover {
   background-color: #f5f5f5;
-} 
+}
 
 .newList {
   margin-left: 250px;
@@ -99,23 +93,19 @@ tr:hover {
   margin-left: 250px;
   margin-top: 40px;
   margin-right: 60px;
-  
+
 }
 
 .form-columns {
- 
   display: flex;
   width: 100%;
   justify-content: start;
-
-
 }
 
 label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
-
 }
 
 input {
@@ -127,20 +117,18 @@ input {
 }
 
 .form-column {
- 
   margin-right: 50px;
   margin-top: 35px;
   width: 300px;
 }
 
-.submit{
+.submit {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-
 }
 
-.submit button{
+.submit button {
   height: 50px;
   width: 120px;
   border-radius: 6px;
@@ -148,12 +136,9 @@ input {
   background-color: rgb(79, 167, 250);
   color: aliceblue;
   font-size: 17px;
-  
- 
-  
 }
 
-.submit button:hover{
+.submit button:hover {
   background-color: #f0cfcf;
 }
 
@@ -163,23 +148,21 @@ input {
   font-weight: bold;
 }
 
-footer{
-    
+footer {
   text-align: center;
   box-sizing: border-box;
   color: rgb(17, 17, 17);
   background: #FFE7CE;
-  padding: 20px 0 ;
-  
- }
+  padding: 20px 0;
+}
 
-
- .bottom-part {
+.bottom-part {
   position: absolute;
   bottom: 0;
   width: 100%;
- }
- .aktualizace{
+}
+
+.aktualizace {
   text-align: center;
   font-size: small;
 }
